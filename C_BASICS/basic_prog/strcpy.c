@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 void strrrcpy(char d[],char s[])
 {
 	int i=0;
@@ -7,7 +7,7 @@ void strrrcpy(char d[],char s[])
 		d[i]=s[i];
 		i++;
 	}
-	d[i]='\0';
+//	d[i]='\0';
 	printf("%s",d);
 }
 int main()
@@ -19,14 +19,14 @@ int main()
 	printf("enter destination string\n");
 	scanf("%s",d);
 	strrrcpy(d,s);
-}*/
+}
 
 
 
 
 //using pointer
 
-#include<stdio.h>
+/*#include<stdio.h>
 char *strrrrcpy(char *d,char *s)
 {
 //char *r=d;
@@ -51,5 +51,5 @@ printf("enter destination string");
 scanf("%s",d);
 strrrrcpy(d,s);
 printf("%s",d);
-}
+}*/
 
