@@ -4,7 +4,7 @@ int  strrratoi(char a[])
 int s=0,i;
 for(i=0;a[i]!=0;i++)
 {
-s=(s*10)+a[i]-48;
+s=(s*10)+a[i]-'0';
 }
 return s;
 }

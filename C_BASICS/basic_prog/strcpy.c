@@ -12,8 +12,8 @@ void strrrcpy(char d[],char s[])
 }
 int main()
 {
-	char d[100];
-	char s[100];
+	char d[3];
+	char s[5];
 	printf("enter source string\n");
 	scanf("%s",s);
 	printf("enter destination string\n");

@@ -20,7 +20,7 @@ int main()
 	printf("enter string 2");
 	scanf("%s",s2);
 	strrrcat(s1,s2);
-}*/
+}t/
 
 
 #include<stdio.h>
@@ -42,7 +42,7 @@ void strrrcat(char s1[],char s2[])
 }
 int main()
 {
-	char s1[100];
+k	char s1[100];
 	char s2[100];
 	printf("enter string 1");
 	scanf("%s",s1);

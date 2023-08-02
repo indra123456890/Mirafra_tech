@@ -1,24 +1,16 @@
 #include<stdio.h>
 int main()
 {
-	int n,c=0;
-	printf("enter the number");
+	int n;
+	printf("enter the value\n");
 	scanf("%d",&n);
-	if((n&(n-1)==0))
+	if( (n > 0) && ((n & (n - 1)) == 0) && ((n & 0xAAAAAAAA) == 0))//a=1010 32bits
 	{
-		while((n&1)==1)
-		{
-			c++;
-			n>>=1;
-		}
-	}
-	if((c%2)==0)
-	{
-		printf("is power of 4");
+		printf("power\n");
 	}
 	else
-	{
-		printf("not power of 4");
-	}
+		printf("not power\n");
 }
+
+
 

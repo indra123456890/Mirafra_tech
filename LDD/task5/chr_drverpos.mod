@@ -1,0 +1,2 @@
+/home/km/Mirafra_tech/LDD/task5/chr_drverpos.o
+

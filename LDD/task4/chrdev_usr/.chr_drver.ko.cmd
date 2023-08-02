@@ -1,0 +1,1 @@
+cmd_/home/km/Mirafra_tech/LDD/task4/chrdev_usr/chr_drver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/km/Mirafra_tech/LDD/task4/chrdev_usr/chr_drver.ko /home/km/Mirafra_tech/LDD/task4/chrdev_usr/chr_drver.o /home/km/Mirafra_tech/LDD/task4/chrdev_usr/chr_drver.mod.o;  true
