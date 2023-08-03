@@ -1,0 +1,11 @@
+int %d%o%x%i
+unsigned int:4 bytes:%u
+short int or short signed int:2 bytes=%h
+long int:%ld
+unsigned short int=%hu
+unsigned long int:%lu
+signed char:%c
+unsigned char:%c
+float:%f
+double:%lf
+long double:%Lf
