@@ -35,13 +35,23 @@ printf("%d",n);
 #include<stdio.h>
 int main()
 {
-int n,temp;
-printf("enter a number");
-scanf("%x",&n);
+int n=0xCA,temp;
+//printf("enter a number");
+//scanf("%x",&n);
 temp=((n>>2)&3)^((n>>6)&3);
 n=n^((temp<<2)|(temp<<6));
-printf("after swapping %d\n",n);
+printf("after swapping %x\n",n);
 }
+
+/*#include<stdio.h>
+int main()
+{
+int x=0xCA;
+x=x^(3<<1);
+x=x^(3<<5);
+printf("%x",x);
+}*/
+
 
 
 

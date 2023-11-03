@@ -48,6 +48,7 @@ return p;
 p=p*n;
 return fact(n-1);
 }
+
 int main()
 {
 int n;
@@ -56,8 +57,3 @@ scanf("%d",&n);
 //fact(n);
 printf("%d",fact(n));
 }
-
-
-
-
-
