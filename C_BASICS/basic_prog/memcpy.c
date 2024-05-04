@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-#define size 3
+#define size 5
 void *my_memcpy(void *d,void *s,int p);
 int main()
 {

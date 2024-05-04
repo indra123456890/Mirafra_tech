@@ -17,7 +17,7 @@ printf("%d",c);
 
 //normal
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
 int n=10,c=0;
@@ -27,4 +27,20 @@ n=n/10;
 c++;
 }
 printf("%d",c);
+}*/
+
+#include<stdio.h>
+int main()
+{
+int n=5,c=0;
+while(n)
+{
+if(n&(0x01)==1)
+{
+c++;
 }
+n=n>>1;
+}
+printf("%d",c);
+}
+

@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-int a,c;
+int c;
+int a;
 char *ptr,*ptr1;
 ptr=&a;
 ptr1=&a+1;

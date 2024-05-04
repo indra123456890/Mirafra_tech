@@ -16,9 +16,13 @@ printf("%s",b);
 
 void nncopy(char a[],char b[],int n)
 {
-int i;
-for(i=0;i<n;i++)
+int i,j;
+for(i=0;b[i]!='\0';i++)
 {
-b[i]=a[i];
+j=i;
+}
+for(j=j+1,i=0;i<n;i++,j++)
+{
+b[j]=a[i];
 }
 }

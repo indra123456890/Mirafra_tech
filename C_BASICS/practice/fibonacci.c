@@ -1,3 +1,5 @@
+
+//prints fib nums upto given pos
 #include<stdio.h>
 int main()
 {

@@ -19,7 +19,7 @@ int main()
 
 
 	printf("%s\n",s);
-	for(i=0;s[i]!=0;i++)
+	for(i=l;s[i]!=0;i++)
 	{
 		if(s[i]==32)
 		{

@@ -13,13 +13,13 @@ printf("%s",a);
 
 void srrcat(char a[],char b[])
 {
-int i,j;
-for(i=0;a[i]!='\0';i++);
+int i,l=0,j;
+for(i=0;a[i]!='\0';i++)
 {
-j=i;
+l++;
 }
 
-for(i=0;b[i]!='\0';j++,i++)
+for(j=l,i=0;b[i]!='\0';i++,j++)
 {
 a[j]=b[i];
 }

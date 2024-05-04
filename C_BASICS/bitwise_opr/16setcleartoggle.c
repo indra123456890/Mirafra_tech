@@ -11,20 +11,20 @@
   }*/
 
 
-/*#include<stdio.h>
+#include<stdio.h>
   int main()
   {
-  unsigned int n;
+ unsigned int n=5;
   int p=2;
-  printf("enter value");
-  scanf("%x",&n);
-  printf("enter position");
+ // printf("enter value");
+  //scanf("%x",&n);
+  //printf("enter position");
   n=n&(~(1<<p));
-  printf("after clear %d",n);
-  }*/
+  printf("after clear %x",n);
+  }
 
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
 	unsigned int n;
@@ -33,5 +33,5 @@ int main()
 	scanf("%x",&n);
 	n=n^(1<<p);
 	printf("after toggle %d",n);
-}
-
+}*/
+ 
